@@ -1,0 +1,44 @@
+{
+  "irVersion": "1.0",
+  "project": "fedramp-schemas-go",
+  "repository": "https://github.com/opensecurity-dev/fedramp-schemas-go",
+  "versioning": "semver",
+  "commitConvention": "conventional",
+  "maintainers": ["grokify", "johncwang@gmail.com"],
+  "releases": [
+    {
+      "version": "v0.1.0",
+      "date": "2026-11-05",
+      "highlights": [
+        { "description": "Go types for the FedRAMP 2026-06-24 machine-readable schema set (JSON Schema draft 2020-12)" },
+        { "description": "Authoritative JSON Schemas embedded for offline runtime validation" },
+        { "description": "Generated MkDocs documentation site published to GitHub Pages" }
+      ],
+      "added": [
+        { "description": "Common Definitions types shared across schemas (VulnerabilityDetail, Detection, NRating, AcceptedVulnerabilityInfo, ReportPeriodDate/DateTime)" },
+        { "description": "CertificationPackageOverview document type (FRC-CSO-PKG)" },
+        { "description": "SecurityDecisionRecord document type (SDR-CSO-FRR)" },
+        { "description": "SignificantChangeNotification document type (SCN-CSO-INF)" },
+        { "description": "IncidentReport document type (IEC-CSO-IIR / OIR / FIR)" },
+        { "description": "OngoingCertificationReport document type (CCM-OCR-AVL)" },
+        { "description": "VulnerabilityDetailReport document type (VER-RPT-VDT)" },
+        { "description": "AcceptedVulnerabilityInfoReport document type (VER-RPT-AVI)" },
+        { "description": "HistoricalVERActivity document type (VER-TFR-MRH)" },
+        { "description": "AdvisorInformation and AssessorInformation document types (MKT-CAS-WEB, MKT-IAS-WEB)" },
+        { "description": "Embedded JSON Schemas with SchemaBytes, SchemaMeta, Schemas, and SchemaFS accessors" },
+        { "description": "Runtime validation via Validator, ValidateBytes, and ValidateValue, resolving cross-file $refs against embedded schemas" },
+        { "description": "IsValid and Values helpers for every enumerated type" }
+      ],
+      "documentation": [
+        { "description": "MkDocs Material site with home, Go usage guide, and per-schema reference pages generated from the schemas" },
+        { "description": "Runnable godoc examples for marshalling, unmarshalling, validation, and schema listing" },
+        { "description": "README with usage, conventions, and repository layout" }
+      ],
+      "build": [
+        { "description": "CI workflow running gofmt, go vet, race tests, golangci-lint, and a generated-docs freshness check" },
+        { "description": "GitHub Pages deploy workflow building the MkDocs site" },
+        { "description": "gen/docs.go generator producing the schema reference and download pages" }
+      ]
+    }
+  ]
+}
