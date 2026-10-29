@@ -1,0 +1,58 @@
+site_name: FedRAMP Schemas (Go)
+site_description: Go structs and vendored JSON Schemas for the FedRAMP machine-readable schema set.
+site_url: https://opensecurity-dev.github.io/fedramp-schemas-go/
+repo_url: https://github.com/opensecurity-dev/fedramp-schemas-go
+repo_name: opensecurity-dev/fedramp-schemas-go
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - content.code.copy
+    - toc.follow
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+
+nav:
+  - Home: index.md
+  - Go Usage: usage.md
+  - Schema Reference:
+      - Overview: reference/index.md
+      - Certification Package Overview: reference/certification-package-overview.md
+      - Security Decision Record: reference/security-decision-record.md
+      - Significant Change Notification: reference/significant-change-notifications.md
+      - Incident Report: reference/incident-report.md
+      - Ongoing Certification Report: reference/ongoing-certification-report.md
+      - Vulnerability Detail Report: reference/vulnerability-detail-report.md
+      - Accepted Vulnerability Info: reference/accepted-vulnerability-info.md
+      - Historical VER Activity: reference/historical-ver-activity.md
+      - Advisor Information: reference/advisor-information.md
+      - Assessor Information: reference/assessor-information.md
+      - Common Definitions: reference/common-definitions.md
+  - Download Schemas: schemas.md
