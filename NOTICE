@@ -1,0 +1,22 @@
+fedramp-schemas-go
+
+The Go code in this repository is licensed under the terms in LICENSE.
+
+FedRAMP JSON Schemas
+--------------------
+
+The JSON Schema files under docs/schemas/ come from the FedRAMP
+machine-readable schema set:
+
+  Source:      https://www.fedramp.gov/schemas/
+  Publisher:   FedRAMP, a program of the U.S. federal government
+  Schema set:  2026-06-24
+
+Works of the U.S. federal government are generally not subject to copyright
+in the United States. These files are treated as public domain. This notice
+records where they came from. If the publisher states different terms for any
+of them, those terms apply to that file.
+
+FedRAMP and the FedRAMP marks belong to their owner. This project is not
+affiliated with, endorsed by, or authorized by FedRAMP or the U.S. government,
+and its use of the schemas is not an assertion of FedRAMP authorization.

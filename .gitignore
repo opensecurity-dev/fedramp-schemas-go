@@ -1,0 +1,13 @@
+# MkDocs build output
+/site/
+
+# Go
+*.test
+*.out
+coverage.txt
+
+# Editor / OS
+.DS_Store
+
+# Local tool settings
+.claude/
