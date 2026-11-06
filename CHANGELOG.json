@@ -35,7 +35,7 @@
         { "description": "README with usage, conventions, and repository layout" }
       ],
       "build": [
-        { "description": "CI workflow running gofmt, go vet, race tests, golangci-lint, and a generated-docs freshness check" },
+        { "description": "CI workflow running gofmt, go vet, race tests, golangci-lint, CodeQL, and a generated-docs freshness check" },
         { "description": "GitHub Pages deploy workflow building the MkDocs site" },
         { "description": "gen/docs.go generator producing the schema reference and download pages" }
       ]
