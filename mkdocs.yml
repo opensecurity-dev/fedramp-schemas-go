@@ -56,3 +56,6 @@ nav:
       - Assessor Information: reference/assessor-information.md
       - Common Definitions: reference/common-definitions.md
   - Download Schemas: schemas.md
+  - Releases:
+      - Changelog: releases/changelog.md
+      - v0.1.0: releases/v0.1.0.md
