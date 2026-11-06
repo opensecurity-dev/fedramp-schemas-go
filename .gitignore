@@ -11,3 +11,7 @@ coverage.txt
 
 # Local tool settings
 .claude/
+
+# Scratch output, never committed
+z/
+tmp/
